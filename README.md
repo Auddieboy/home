@@ -1,3 +1,10 @@
-# home
+# hello
 
-Changing a line
+This is the code for my portfolio!
+
+# running this project locally
+
+```
+npm run
+npm start
+```
