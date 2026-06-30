@@ -5,7 +5,7 @@ export function Design() {
     return (
         <Page title="Design">
             <Paragraph>
-                TODO: Replace with photos and stuff of Austin’s designs.
+                This page is under construction. Come back later to see some of my designs.
             </Paragraph>
         </Page>
     );

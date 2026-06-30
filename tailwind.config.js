@@ -12,7 +12,7 @@ module.exports = {
       colors: {
         'bg-primary': 'white',
         'bg-secondary': '#EAD2AC',
-        'bg-hover': '#DB3A34',
+        'bg-hover': '#d9c3ce',
         'text-dark': '#323031',
         'text-light': '#177E89',
         'text-hover': '#084C61',

@@ -5,7 +5,7 @@ export function Contact() {
     return (
         <Page title="Contact" >
             <Paragraph >
-                TODO: Add Austin’s contact information.
+                This page is under construction. Come back later to send me a message.
             </Paragraph >
         </Page >
     );

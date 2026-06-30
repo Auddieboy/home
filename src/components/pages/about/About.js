@@ -5,7 +5,7 @@ export function About() {
   return (
     <Page title="About">
       <Paragraph>
-        TODO: replace with some words about Austin.
+        This page is under construction. Come back later to learn some more about me.
       </Paragraph>
     </Page>
   );

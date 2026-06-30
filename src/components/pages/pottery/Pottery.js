@@ -5,7 +5,7 @@ export function Pottery() {
     return (
         <Page title="Pottery">
             <Paragraph>
-                TODO: Replace with some words about Austin’s pottery and some images of Austin’s pottery.
+                This page is under construction. Come back later to see photos of my pottery.
             </Paragraph>
         </Page>
     );
