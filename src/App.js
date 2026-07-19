@@ -17,7 +17,7 @@ function App() {
           <div className="flex items-stretch min-h-[calc(100vh-75px)]">
             <Routes>
               <Route path="about" element={<About />} />
-              <Route path="pottery" element={<Pottery />} />
+              <Route path="pottery/*" element={<Pottery />} />
               <Route path="design" element={<Design />} />
               <Route path="contact" element={<Contact />} />
               <Route path="/" element={<About />} />
