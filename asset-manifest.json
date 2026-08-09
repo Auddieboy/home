@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e26558fb.css",
-    "main.js": "/static/js/main.ab54268e.js",
+    "main.js": "/static/js/main.1429a268.js",
     "static/js/453.7322b850.chunk.js": "/static/js/453.7322b850.chunk.js",
     "static/media/pattern_bowl.jpg": "/static/media/pattern_bowl.36b188c9bfdf21a1b931.jpg",
     "static/media/lady_lamp.jpg": "/static/media/lady_lamp.9f97bc93c8bbc2e2f4cb.jpg",
@@ -36,11 +36,11 @@
     "static/media/pipes.jpg": "/static/media/pipes.a44d0e33c1f277ae1acd.jpg",
     "index.html": "/index.html",
     "main.e26558fb.css.map": "/static/css/main.e26558fb.css.map",
-    "main.ab54268e.js.map": "/static/js/main.ab54268e.js.map",
+    "main.1429a268.js.map": "/static/js/main.1429a268.js.map",
     "453.7322b850.chunk.js.map": "/static/js/453.7322b850.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e26558fb.css",
-    "static/js/main.ab54268e.js"
+    "static/js/main.1429a268.js"
   ]
 }
