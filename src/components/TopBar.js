@@ -1,6 +1,5 @@
 import {
   faBeer,
-  faInfoCircle,
   faLightbulb,
   faPaperPlane
 } from "@fortawesome/free-solid-svg-icons";
@@ -8,22 +7,17 @@ import { NavButton } from "./NavButton";
 
 const navInfo = [
   {
-    title: "About",
-    navTo: "/",
-    icon: faInfoCircle,
-  },
-  {
-    title: "Pottery",
+    title: "pottery",
     navTo: "pottery",
     icon: faBeer,
   },
   {
-    title: "Design",
+    title: "design",
     navTo: "design",
     icon: faLightbulb,
   },
   {
-    title: "Contact",
+    title: "contact",
     navTo: "contact",
     icon: faPaperPlane,
   }
@@ -31,9 +25,9 @@ const navInfo = [
 
 export const TopBar = () => {
   return (
-    <div className="flex shrink=0 bg-bg-secondary flex flex-row justify-between sticky top-0">
-      <div className="mr-6 text-[50px] displayText font-semibold pl-6">
-        Austin’s
+    <div className="flex shrink=0 bg-terracotta flex flex-row justify-between sticky top-0">
+      <div className="mr-6 text-[40px] text-white displayText font-semibold pl-6 my-2">
+        austin’s
       </div>
       <div className="flex flex-row">
         {navInfo.map((i, j) => (

@@ -14,7 +14,7 @@ body {
 
 .displayText {
   font-family: "Sanchez", "Red Hat Text";
-  font-variant: small-caps;
+  text-transform: uppercase;
 }
 
 code {

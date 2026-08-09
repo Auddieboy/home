@@ -13,7 +13,7 @@ export function Card({ children, link, pic, title, navigateTo }) {
 }
 
 function InnerCardContents({ children, pic, title }) {
-  return <div className="bg-bg-primary rounded-md p-6 flex flex-col space-y-4 h-full">
+  return <div className="bg-gray-light rounded-md p-6 flex flex-col space-y-4 h-full">
     <h1 className="text-center font-bold">{title}</h1>
     {pic && <img src={pic} alt={`${title} screenshot`} />}
     <div>{children}</div>

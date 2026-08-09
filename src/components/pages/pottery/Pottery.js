@@ -4,15 +4,15 @@ import { BarLoader } from "react-spinners";
 import { Page } from "../../Page";
 import { PotteryModal } from "./PotteryModal";
 
-export const potteryTypes = ['porcelain', 'raku', 'terra cotta', 'clay'];
+export const potteryTypes = ['porcelain', 'raku', 'terra cotta', 'stoneware'];
 
 const PotterySection = (props) => {
     const { potteryType, setSelected } = props;
 
     const context = useMemo(() => {
         switch (potteryType) {
-            case 'clay':
-                return require.context('../../../img/pottery_2026/clay', false, /\.jpg$/)
+            case 'stoneware':
+                return require.context('../../../img/pottery_2026/stoneware', false, /\.jpg$/)
             case 'porcelain':
                 return require.context('../../../img/pottery_2026/porcelain', false, /\.jpg$/)
             case 'raku':
@@ -26,8 +26,8 @@ const PotterySection = (props) => {
     const potteryNames = filenames.map((f) => f.slice(2, -4));
 
     return (
-        <div>
-            <div className="w-full text-center pt-8 pb-4 text-lg">{potteryType.toString().replace(/\b\w/g, char => char.toUpperCase())}</div>
+        <div className="pb-4">
+            <div className="w-full text-center pt-8 pb-4 text-2xl font-semibold">{potteryType.toString().replace(/\b\w/g, char => char.toUpperCase())}</div>
             <div className="grid md:grid-cols-5 gap-2">
                 {potteryNames.map((p, i) => {
                     return (
@@ -64,7 +64,7 @@ export function Pottery() {
     const [selected, setSelected] = useState();
 
     return (
-        <Page title="Pottery">
+        <Page title="pottery">
             <PotteryModal selected={selected} setSelected={setSelected} />
             {potteryTypes.map((t) => <PotterySection potteryType={t} setSelected={setSelected} selected={selected} />)}
         </Page>

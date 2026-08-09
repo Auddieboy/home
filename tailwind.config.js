@@ -10,13 +10,10 @@ module.exports = {
         'width': 'width'
       },
       colors: {
-        'bg-primary': 'white',
-        'bg-secondary': '#EAD2AC',
-        'bg-hover': '#d9c3ce',
-        'text-dark': '#323031',
-        'text-light': '#177E89',
-        'text-hover': '#084C61',
-        'text-heading': '#177E89'
+        'terracotta': '#e38264',
+        'cobalt': '#0f3261',
+        'terracotta-dark': '#ad593e',
+        'gray-light': '#f5f5f5'
       }
     },
   },

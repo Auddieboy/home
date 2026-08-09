@@ -32,7 +32,7 @@ export function PotteryModal(props) {
         <Modal
             isOpen={isOpen}
             onRequestClose={closeModal}
-            className=" focus:outline-none p-4 z-50 bg-white my-8 overflow-auto max-w-fit m-auto shadow-[0_0_25px_-5px_rgba(0,0,0,0.2)] rounded-sm">
+            className="text-cobalt focus:outline-none p-4 z-50 bg-white my-8 overflow-auto max-w-fit m-auto shadow-[0_0_25px_-5px_rgba(0,0,0,0.2)] rounded-sm">
             {potteryFilename && (
                 <div>
                     <div className="top-0 sticky flex justify-between items-center bg-white py-4 px-6">

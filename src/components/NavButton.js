@@ -6,7 +6,7 @@ export function NavButton({ navTo, title, icon }) {
     return (
         <NavLink
             to={navTo}
-            className={({ isActive }) => classname("displayText font-semibold flex items-center space-x-2 px-4 hover:bg-bg-hover hover:text-text-hover text-lg transition delay-0 duration-[500ms] ease-in-out", isActive ? "bg-bg-primary" : "")}
+            className={({ isActive }) => classname("displayText hover:text-white font-semibold flex items-center space-x-2 px-5 hover:bg-terracotta-dark text-md transition delay-0 duration-[500ms] ease-in-out", isActive ? "bg-gray-light text-cobalt" : "text-white")}
         >
             <FontAwesomeIcon icon={icon} className="w-5" />
             <div>{title}</div>
