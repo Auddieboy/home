@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d6604a76.css",
-    "main.js": "/static/js/main.d439edc8.js",
+    "main.css": "/static/css/main.e26558fb.css",
+    "main.js": "/static/js/main.310a9a57.js",
     "static/js/453.7322b850.chunk.js": "/static/js/453.7322b850.chunk.js",
     "static/media/pattern_bowl.jpg": "/static/media/pattern_bowl.36b188c9bfdf21a1b931.jpg",
     "static/media/lady_lamp.jpg": "/static/media/lady_lamp.9f97bc93c8bbc2e2f4cb.jpg",
@@ -28,7 +28,6 @@
     "static/media/face_pots.jpg": "/static/media/face_pots.fbdb60c42f52f17db90f.jpg",
     "static/media/little_face_mugs.jpg": "/static/media/little_face_mugs.0bca7a267646b4323611.jpg",
     "static/media/oil_lamps_lit.jpg": "/static/media/oil_lamps_lit.c181197dacf37481ae45.jpg",
-    "static/media/bubbler.jpg": "/static/media/bubbler.28ba78665b5a6f37377f.jpg",
     "static/media/llama_ashtray.jpg": "/static/media/llama_ashtray.cf04e9814df9747691b8.jpg",
     "static/media/classic_oil_lamp.jpg": "/static/media/classic_oil_lamp.d22b7cc057cb984de4de.jpg",
     "static/media/tea_bowls.jpg": "/static/media/tea_bowls.d0852e9b93e4c235079e.jpg",
@@ -36,12 +35,12 @@
     "static/media/face_shot_glasses.jpg": "/static/media/face_shot_glasses.669e2d01d3ca37abfd53.jpg",
     "static/media/pipes.jpg": "/static/media/pipes.a44d0e33c1f277ae1acd.jpg",
     "index.html": "/index.html",
-    "main.d6604a76.css.map": "/static/css/main.d6604a76.css.map",
-    "main.d439edc8.js.map": "/static/js/main.d439edc8.js.map",
+    "main.e26558fb.css.map": "/static/css/main.e26558fb.css.map",
+    "main.310a9a57.js.map": "/static/js/main.310a9a57.js.map",
     "453.7322b850.chunk.js.map": "/static/js/453.7322b850.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6604a76.css",
-    "static/js/main.d439edc8.js"
+    "static/css/main.e26558fb.css",
+    "static/js/main.310a9a57.js"
   ]
 }
