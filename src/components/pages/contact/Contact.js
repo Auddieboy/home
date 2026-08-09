@@ -18,7 +18,7 @@ export function Contact() {
                 Reach out to me at <FancyLink mailTo="austinsclay@gmail.com">austinsclay@gmail.com</FancyLink>.
             </Paragraph>
             <Paragraph>
-                Or stay in touch by following my Instagram account <FancyLink href="instagram.com/austins.studio">@austins.studio</FancyLink>.
+                Or stay in touch by following my Instagram account <FancyLink href="https://instagram.com/austins.studio">@austins.studio</FancyLink>.
             </Paragraph>
         </Page>
     );
